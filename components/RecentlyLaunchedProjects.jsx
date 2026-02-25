@@ -195,15 +195,7 @@ const RecentlyLaunchedProjects = () => {
                         View Details
                       </button>
 
-                      <button
-                        onClick={() => handleCallBackClick(project)}
-                        className="text-white px-4 py-2 rounded-lg cursor-pointer font-semibold flex items-center gap-2 shadow"
-                        style={{ background: primary }}
-                      >
-                        <Phone size={16} />
-                        Call
-                      </button>
-
+                    
                     </div>
 
                   </div>
@@ -252,15 +244,7 @@ const RecentlyLaunchedProjects = () => {
                         Details
                       </button>
 
-                      <button
-                        onClick={() => handleCallBackClick(project)}
-                        className="flex-1 text-white py-2 cursor-pointer rounded-xl font-semibold transition flex items-center justify-center gap-2"
-                        style={{ background: primary }}
-                      >
-                        <Phone size={16} />
-                        Call Now
-                      </button>
-
+                      
                     </div>
 
                   </div>

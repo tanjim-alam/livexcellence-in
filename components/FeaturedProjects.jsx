@@ -183,13 +183,7 @@ const FeaturedProjects = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-3">
 
-                      <button
-                        onClick={() => handleCallBackClick(project)}
-                        className="bg-white px-4 py-2 rounded-lg cursor-pointer font-semibold shadow hover:scale-105 transition"
-                      >
-                        Instant Call
-                      </button>
-
+                      
                       <button
                         className="text-white border cursor-pointer border-white px-4 py-2 rounded-lg hover:bg-white hover:text-black transition"
                       >
@@ -244,15 +238,6 @@ const FeaturedProjects = () => {
                         className="flex-1 border py-2 rounded-xl cursor-pointer font-semibold hover:bg-gray-100"
                       >
                         Details
-                      </button>
-
-                      <button
-                        onClick={() => handleCallBackClick(project)}
-                        className="flex-1 text-white py-2 rounded-xl cursor-pointer font-semibold flex items-center justify-center gap-2"
-                        style={{ background: primary }}
-                      >
-                        <Phone size={16} />
-                        Call
                       </button>
 
                     </div>

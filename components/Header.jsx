@@ -106,24 +106,7 @@ const Header = () => {
 
             </nav>
 
-            {/* CTA */}
-            <div className="hidden md:flex items-center gap-4">
-
-              <Link
-                href="#"
-                className="px-6 py-2.5 rounded-lg border border-[#1683cb] text-[#1683cb] hover:bg-[#1683cb] hover:text-white transition font-medium"
-              >
-                Enquire Now
-              </Link>
-
-              <Link
-                href="tel:+919380660766"
-                className="bg-[#1683cb] text-white px-6 py-2.5 rounded-lg hover:bg-[#126aa4] transition font-medium shadow-md"
-              >
-                Call Now
-              </Link>
-
-            </div>
+          
 
             {/* Mobile Button */}
             <button
@@ -168,12 +151,7 @@ const Header = () => {
 
             <Link href="#" onClick={() => setIsMenuOpen(false)}>Contact</Link>
 
-            <Link
-              href="#"
-              className="bg-[#1683cb] text-white text-center py-3 rounded-lg mt-4"
-            >
-              Enquire Now
-            </Link>
+            
 
           </nav>
 
