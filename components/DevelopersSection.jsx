@@ -125,7 +125,7 @@ const DevelopersSection = () => {
               />
 
               {/* Card */}
-              <div className="relative bg-white/70 backdrop-blur-lg border border-gray-200 rounded-3xl p-6 hover:shadow-2xl transition">
+              <div className="relative bg-white/70 text-black backdrop-blur-lg border border-gray-200 rounded-3xl p-6 hover:shadow-2xl transition">
 
                 {/* Logo */}
                 <div className="flex justify-center mb-5">

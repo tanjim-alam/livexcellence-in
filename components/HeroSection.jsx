@@ -110,7 +110,7 @@ const HeroSection = () => {
                 City
               </label>
 
-              <select className="w-full mt-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1683cb] focus:outline-none">
+              <select className="w-full mt-1 px-4 py-3 border text-black border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1683cb] focus:outline-none">
                 <option>Bangalore</option>
                 <option>Mumbai</option>
                 <option>Delhi NCR</option>
@@ -135,7 +135,7 @@ const HeroSection = () => {
                 <input
                   type="text"
                   placeholder="Enter location or project"
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1683cb] focus:outline-none"
+                  className="w-full pl-10 pr-4 py-3 border text-black border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1683cb] focus:outline-none"
                 />
 
               </div>
@@ -149,7 +149,7 @@ const HeroSection = () => {
                 Budget
               </label>
 
-              <select className="w-full mt-1 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1683cb] focus:outline-none">
+              <select className="w-full mt-1 px-4 py-3 text-black border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1683cb] focus:outline-none">
                 <option>Select Budget</option>
                 <option>₹50L – ₹1Cr</option>
                 <option>₹1Cr – ₹2Cr</option>

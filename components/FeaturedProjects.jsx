@@ -20,47 +20,47 @@ const FeaturedProjects = () => {
   const [favorites, setFavorites] = useState([]);
 
   const projects = [
-    {
-      id: 1,
-      title: "Sobha World City",
-      location: "North Bangalore",
-      image: "/sobhaworldcity.png",
-      priceRange: "₹1.8 Cr - ₹3.6 Cr",
-      area: "1450 - 3200 SqFt",
-      bhk: "2,3,4 BHK",
-      status: "New Launch",
-    },
-    {
-      id: 2,
-      title: "Prestige Park Grove",
-      location: "Whitefield, Bangalore",
-      image: "/prestigeparkgrove.jpg",
-      priceRange: "₹1.6 Cr - ₹3.2 Cr",
-      area: "1300 - 2800 SqFt",
-      bhk: "2,3,4 BHK",
-      status: "Pre Launch",
-    },
-    {
-      id: 3,
-      title: "Birla Evara",
-      location: "Hebbal, Bangalore",
-      image: "/birlaevara.webp",
-      priceRange: "₹1.9 Cr - ₹3.8 Cr",
-      area: "1500 - 3000 SqFt",
-      bhk: "2,3,4 BHK",
-      status: "Ready to Move",
-    },
-    {
-      id: 4,
-      title: "Assetz Mizumi Reserve",
-      location: "Whitefield",
-      image: "/assetz-mizumi-reserve.webp",
-      priceRange: "₹1.2 Cr - ₹2.5 Cr",
-      area: "1200 - 2400 SqFt",
-      bhk: "2,3 BHK",
-      status: "Limited Units",
-    },
-  ];
+  {
+    id: 1,
+    title: "Sobha World City",
+    location: "North Bangalore",
+    image: "/sobhaworldcity.png",
+    priceRange: "₹1.8 Cr - ₹3.6 Cr",
+    area: "1450 - 3200 SqFt",
+    bhk: "2,3,4 BHK",
+    status: "New Launch",
+  },
+  {
+    id: 2,
+    title: "Sobha Dream Gardens",
+    location: "South Bangalore",
+    image: "/sobhadreamgardens.jpg",
+    priceRange: "₹1.5 Cr - ₹3.0 Cr",
+    area: "1400 - 3100 SqFt",
+    bhk: "2,3,4 BHK",
+    status: "Pre Launch",
+  },
+  {
+    id: 3,
+    title: "Sobha Royal Pavilion",
+    location: "East Bangalore",
+    image: "/sobharoyalpavilion.jpg",
+    priceRange: "₹2.0 Cr - ₹4.0 Cr",
+    area: "1600 - 3300 SqFt",
+    bhk: "3,4 BHK",
+    status: "Under Construction",
+  },
+  {
+    id: 4,
+    title: "Sobha Suncrest",
+    location: "West Bangalore",
+    image: "/sobhasuncrest.jpg",
+    priceRange: "₹1.7 Cr - ₹3.5 Cr",
+    area: "1500 - 3200 SqFt",
+    bhk: "2,3 BHK",
+    status: "Ready to Move",
+  },
+];
 
   const visibleCards = 3;
 
@@ -147,7 +147,7 @@ const FeaturedProjects = () => {
               >
 
                 {/* Card */}
-                <div className="group bg-white rounded-3xl shadow-md hover:shadow-2xl transition overflow-hidden">
+                <div className="group bg-white text-black rounded-3xl shadow-md hover:shadow-2xl transition overflow-hidden">
 
                   {/* Image */}
                   <div className="relative overflow-hidden">

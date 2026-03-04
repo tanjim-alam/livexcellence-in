@@ -23,26 +23,28 @@ const RecentlyLaunchedProjects = () => {
   const visibleCards = 3;
 
   const projects = [
-    {
-      id: 1,
-      title: "Brigade Orchards",
-      location: "Devanahalli",
-      image: "/brigadeorchards.jpg",
-      priceRange: "₹95 L - ₹2.2 Cr",
-      area: "1050 - 2050 SqFt",
-      bhk: "2,3,4 BHK",
-      launchDate: "Jan 2026",
-    },
-    {
-      id: 2,
-      title: "Prestige City",
-      location: "Sarjapur Road, Bangalore",
-      image: "/prestigecity.jpg",
-      priceRange: "₹1.2 Cr - ₹2.8 Cr",
-      area: "1150 - 2250 SqFt",
-      bhk: "2,3,4 BHK",
-      launchDate: "Jan 2026",
-    },
+  {
+    id: 1,
+    title: "Sobha Platinum Towers",
+    location: "Central Bangalore",
+    image: "/sobhaplatinumtowers.webp",
+    priceRange: "₹2.2 Cr - ₹4.2 Cr",
+    area: "1700 - 3500 SqFt",
+    bhk: "3,4 BHK",
+    status: "Pre Launch",
+    launchDate: "May 2026",
+  },
+  {
+    id: 2,
+    title: "Sobha Vista Heights",
+    location: "North-East Bangalore",
+    image: "/sobhavistaheights.jpg",
+    priceRange: "₹1.9 Cr - ₹3.8 Cr",
+    area: "1550 - 3250 SqFt",
+    bhk: "2,3,4 BHK",
+    status: "Under Construction",
+    launchDate: "Jun 2026",
+  },
     {
       id: 3,
       title: "Sobha Neopolis",
@@ -54,15 +56,16 @@ const RecentlyLaunchedProjects = () => {
       launchDate: "Dec 2025",
     },
     {
-      id: 4,
-      title: "Godrej Woodsville",
-      location: "Karmelaram",
-      image: "/godrejwoodsville.jpg",
-      priceRange: "₹1.5 Cr - ₹3.2 Cr",
-      area: "1350 - 2450 SqFt",
-      bhk: "2,3,4 BHK",
-      launchDate: "Dec 2025",
-    },
+    id: 4,
+    title: "Sobha Elegance Residences",
+    location: "South-East Bangalore",
+    image: "/sobhaeleganceresidences.jpg",
+    priceRange: "₹2.1 Cr - ₹4.0 Cr",
+    area: "1650 - 3400 SqFt",
+    bhk: "3,4 BHK",
+    status: "New Launch",
+    launchDate: "Jul 2026",
+  },
   ];
 
   const next = () => {
@@ -152,7 +155,7 @@ const RecentlyLaunchedProjects = () => {
               >
 
                 {/* Card */}
-                <div className="group bg-white rounded-3xl shadow-md hover:shadow-2xl transition overflow-hidden">
+                <div className="group bg-white text-black rounded-3xl shadow-md hover:shadow-2xl transition overflow-hidden">
 
                   {/* Image */}
                   <div className="relative overflow-hidden">
